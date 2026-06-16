@@ -1,47 +1,51 @@
 # Local AI Money
 
-**AI follow-up, lead capture, review, scheduling, and sales systems for local businesses.**
+Local AI Money is an AI automation service and newsletter brand for local business professionals.
 
-We install AI systems that help local businesses respond faster, follow up automatically, and close more leads — more booked appointments, faster lead follow-up, fewer missed calls, more Google reviews, better reactivation, less admin work, and more sales.
+We help realtors, mechanics, insurance agents, and local service businesses install AI systems for lead follow-up, missed-call text-back, review requests, customer reactivation, and sales automation.
 
-This repo is the marketing website + newsletter ("The Local AI Money Brief"). It's a static site — pure HTML/CSS/JS, no build step — so it runs anywhere and deploys free on GitHub Pages.
+## Site
+
+https://600589mbm-beep.github.io/local-ai-money/
+
+## Core Offers
+
+- AI Revenue Audit — $297
+- AI Lead Follow-Up System
+- Missed-Call Text Back Automation
+- Review Request Automation
+- Old Lead Reactivation Campaigns
+- Monthly AI Automation Support
+
+## Newsletter
+
+**The Local AI Money Brief** — weekly AI money moves for local pros: one practical
+automation, a real before/after, a tool of the week, and a reusable script.
 
 ## Pages
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Home / landing page (hero, benefits, services, how it works, audit CTA, newsletter signup) |
-| `services.html` | Full service list with the buyer + "why it sells" table |
-| `pricing.html` | Three offers: Audit ($297), Installation ($2,500–$5,000), Maintenance ($497–$1,500/mo) |
-| `newsletter.html` | "The Local AI Money Brief" hub + signup + issue archive |
-| `issue-1.html` | "Most local businesses lose leads in the first 5 minutes" |
-| `issue-2.html` | "The missed-call AI system every mechanic should have" |
-| `issue-3.html` | "Realtors: use AI to revive old buyer and seller leads" |
+| `index.html` | Home: hero, newsletter signup, services, offers, who-it-helps, contact/booking |
+| `services.html` | Full service list and detail |
+| `pricing.html` | The three offers + FAQ |
+| `newsletter.html` | The Local AI Money Brief hub + issue archive |
+| `issue-1.html` / `issue-2.html` / `issue-3.html` | First three newsletter issues |
 | `styles.css` | Shared dark/gradient theme |
 | `script.js` | Mobile nav, scroll reveal, newsletter form demo |
 
-## Run locally
+## Before going live — swap these placeholders
 
-Just open `index.html` in a browser. Or serve it:
+- **Booking link:** replace every `https://YOUR-BOOKING-LINK` with your real Calendly /
+  GoHighLevel / TidyCal booking URL.
+- **Phone number:** replace `tel:+15550000000` and the displayed `(555) 000-0000` with your
+  real click-to-call number.
+- **Newsletter form:** connect the signup `<form>` to your email tool (Mailchimp, ConvertKit,
+  Beehiiv, etc.).
 
-```bash
-# Python
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
+## Tech
 
-## Deploy free with GitHub Pages
-
-1. Push this repo to GitHub (see `DEPLOY.md`).
-2. In the repo: **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** = *Deploy from a branch*, **Branch** = `main` / `root`.
-4. Save. Your site goes live at `https://<your-username>.github.io/local-ai-money/` in a minute or two.
-
-## Customize
-
-- **Email / CTAs:** search the project for `600589mbm@gmail.com` and swap in your booking link or email.
-- **Newsletter form:** `script.js` handles the form as a front-end demo. Connect it to your email tool (Mailchimp, ConvertKit, Beehiiv, etc.) by pointing the `<form>` `action` at your provider.
-- **Brand name / colors:** edit the CSS variables at the top of `styles.css`.
+Static site — plain HTML/CSS/JS, no build step. Hosted free on GitHub Pages.
 
 ## License
 

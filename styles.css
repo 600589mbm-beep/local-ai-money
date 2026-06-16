@@ -130,6 +130,8 @@ p { margin: 0 0 1em; color: var(--muted); }
 .nav__links { display: flex; align-items: center; gap: 26px; }
 .nav__links a { color: var(--muted); font-weight: 600; font-size: .95rem; }
 .nav__links a:hover, .nav__links a.active { color: var(--text); }
+.nav__call { font-weight: 700 !important; color: var(--brand-2) !important; white-space: nowrap; }
+.nav__call:hover { color: var(--text) !important; }
 .nav__toggle { display: none; background: none; border: 0; color: var(--text); font-size: 1.5rem; cursor: pointer; }
 
 /* ---------- Hero ---------- */
